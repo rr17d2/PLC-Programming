@@ -1,0 +1,15 @@
+Lab 5 09/30/2020
+
+Activity 1:
+	Need to go overit with you. I know that my program is wrong since nothing is happening.  
+
+Activity 2:
+	The point of this activity is to get familiar with latch and un-latch instuctions. When the green push-button is
+	activated, the yellow light turns on which B3:0/0 turns to a 1 (latches). When the red push-button is activated, 
+	it is unlatched and returns a 0 in B3:0/0.
+
+Activity 3:
+	The green push-button and the blue push-button correspond with each other. When the green PB is pressed, it latches
+	to its address B3:0/0 (on/1) and when the blue PB is pressed it un-latches to its address B3:0/0 (off/0).
+	The red push-button and the yellow push-button correspond with each other. When the red PB is pressed, it latches
+	to its address B3:0/0 (on/1) and when the yellow PB is pressed it un-latches to its address B3:0/0 (off/0).

@@ -1,0 +1,11 @@
+Week 3 Lab 09/29/2020 (re-do)
+
+Activity 1:
+	When the push button starts, toggle switch one is activated, and limit switch one is de-activated then motor one is engergized.
+	When toggle switch one and limit switch one are activated then the red light is engergized. Once the stop button is activated,
+	then the system comes to an halt. 
+
+Activity 2:
+	If the toggle switch is activated, then motor one and the green light get engergized. Once the toggle switch is de-activated
+	and the stop button is (NO) then it will shut down motor one and the red light will appear. Motor one will only acitvate once 
+	the toggle switch is activated again. 

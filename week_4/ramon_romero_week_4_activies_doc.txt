@@ -1,0 +1,22 @@
+LAB 4 09/25/2020
+
+Activity 1:
+	1. When Rotary switch 1, 2, 3, and 4 are normally open, it passes power to motor 1 which turs on. As for
+	the control circuit which uses a binary data value it is set at 1 (on) when all rotary switches are open
+	and power is flowing through the system.
+	2. When the red push button is press, it sets the binary data value to 0 (off) which shuts the power to motor 1. 
+	I am assuming the red push button acts like an e-stop button (emergency button).
+
+Activity 2:
+	1. When rotary switch 3 is close, the red pilot light and control relay 1 are engergized.
+	2. When rotary switch 2 and 3 are close, the red pilot light is engergized.
+	3. When all rotary switches are close, the red pilot light is on.
+	4. When all rotary switches are close and the push-button is activated, the red pilot light and the buzzer are on.
+	5. If all rotary switches are open, it activates the red pilot light and control relay 1 and 2 are engergized.
+	6. When rotary switch 3 is closedand the push-button is activated, it will turn on motor 1 and the buzzer.
+
+Activity 3:
+	Once the red push botton is activated (NO) and both green and yellow push buttons are (NC), motor one and two will 
+	turn on but once rotary switch one is activated then it will disable motor one and two and trigger the control relay.
+	When the red push button is stopped (NC) it willshut down the system. 
+	

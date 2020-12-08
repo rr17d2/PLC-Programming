@@ -1,0 +1,347 @@
+FILE,LAD 2:
+SOR,0 XIO,I:1/1 XIO,I:1/2 OTE,B3:0/0 EOR,0
+RCM,This is a NOR logic gate for input A and B.
+SOR,1 XIC,I:1/2 XIC,I:1/3 OTE,B3:0/1 EOR,1
+RCM,This is an AND logic gate for input B and C.
+SOR,2 XIO,I:1/2 OTE,B3:0/2 EOR,2
+RCM,This is a NOT/INVERTER logic gate for input B.
+SOR,3 BST,1 XIO,B3:0/1 NXB,1 XIO,B3:0/2 BND,1 OTE,B3:0/3 EOR,3
+RCM,This is a NAND logic gate for stored data in Y: AND and Y: Inverter.
+SOR,4 BST,1 XIC,B3:0/0 XIC,B3:0/3 NXB,1 XIO,B3:0/0 XIO,B3:0/3 BND,1 OTE,B3:0/4 EOR,4
+RCM,This is a XNOR logic gate for stored data in Y: NOR and Y: NAND. This is the final output of the exercise.
+SOR,5 END,5
+RCM,
+FILE,SBR 3:
+SOR,0 END,0
+RCM,
+FILE,SBR 4:
+SOR,0 END,0
+RCM,
+FILE,SBR 5:
+SOR,0 END,0
+RCM,
+FILE,SBR 6:
+SOR,0 END,0
+RCM,
+FILE,SBR 7:
+SOR,0 END,0
+RCM,
+FILE,SBR 8:
+SOR,0 END,0
+RCM,
+FILE,SBR 9:
+SOR,0 END,0
+RCM,
+BTBL
+10
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+NTBL
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+FTBL
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+SYMBOLS
+? Y: XNOR
+I:1/3 C
+I:1/1 A
+I:1/2 B
+B3:0/1 Y: AND
+B3:0/0 Y: NOR
+B3:0/2 Y: Inverter
+B3:0/3 Y: NAND
+B3:0/4 Y: XNOR
